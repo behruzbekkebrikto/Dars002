@@ -1,0 +1,64 @@
+# matn1="O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•"
+# print(matn1.upper())
+# matn2="O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•"
+# print(matn2.lower())
+# matn3="O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•"
+# print(matn3.title())
+# matn4="O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•"
+# print(matn4.capitalize())
+# matn5="O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•"
+# print(matn5.swapcase())
+# matn6="   O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•   "
+# print(matn6.strip())
+# matn7="   O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•   "
+# print(matn7.lstrip())
+# matn8="    O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•    "
+# print(matn8.rstrip())
+# matn9="O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•"
+# print(matn9.replace(input("oldingi matnni kiriting"), input("keyingi matnni kiriting")))
+# matn9_1="O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•"
+# print(matn9_1.replace("Ona", "Ota"))
+# matn10="O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•"
+# print(matn10.split(","))
+# matn10_1="O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•"
+# print(matn10_1.split("."))
+# matn11=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•")
+# a=matn11.split(" ")
+# print(", ".join(a))
+# matn12=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•")
+# print(matn12.find("mening"))
+# matn13=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•")
+# print(matn13.rfind("ostonadan"))
+# matn14=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•")
+# print(matn14.find("V"))
+# matn15=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•")
+# print(matn15.count("a"))
+# matn16=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•")
+# print(matn16.startswith("O’zbekiston"))
+# matn17=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•")
+# print(matn17.endswith("O’zbekiston•"))
+# matn18=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi.   Ona vatanim O’zbekiston•")
+# print(matn18.isdigit())
+# -------Satr faqat harflardan iboratligini tekshiring.
+# matn20=("OzbekistonvatanimmeningVatanostonadaboshlanad2OnavatanimOzbekiston")
+# print(matn20.isalnum())
+# matn21=("O’zbekiston vatanim mening Vatan ostonadan boshlanadi   Ona vatanim O’zbekiston•")
+# print((" ".isspace()),matn21)
+# matn22=("o’zbekiston vatanim mening. vatan ostonadan boshlanadi.   ona vatanim o’zbekiston•")
+# print(matn22.islower())
+# matn23=("O’ZBEKISTON VATANIM MENING. VATAN OSTONADAN BOSHLANADI.   ONA VATANIM O’ZBEKISTON•")
+# print(matn23.isupper())
+# matn24=("Ozbekiston Vatanim Mening Vatan Ostonadan Boshlanadi   Ona Vatanim Ozbekiston")
+# print(matn24.istitle())
+# matn25=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi.   Ona vatanim O’zbekiston•")
+# print(matn25.center(10))
+# matn26=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi.   Ona vatanim O’zbekiston•")
+# print(matn26.ljust(12))
+# matn27=("O’zbekiston vatanim mening. Vatan ostonadan boshlanadi.   Ona vatanim O’zbekiston•")
+# print(matn27.ljust(12))
+# ---------28Berilgan raqamni 5 xonali qilib, boshiga nol qo‘shib chiqaring.
+#----- matn29=("O’zbekiston vatanim mening Vatan ostonadan boshlanadi   Ona vatanim O’zbekiston•")
+# print(matn29.split(" ",3))
+# name="Behro'z"
+# age=18
+# print("Mening ismim {} and yoshim {} da ".format(name,age))
