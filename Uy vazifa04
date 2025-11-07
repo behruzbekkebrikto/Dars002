@@ -1,0 +1,57 @@
+#1
+# for i in range(3):
+#     print("Kofe tayyorlash jarayonini")
+# print("Kofengiz tayyor bo'ldi")
+#2
+# for i in range(1,6):
+#     print(f"{i}-km yuguradi")
+# print("Marraga yetib keldiz")    
+#3
+#for i in range(1,11):
+#    a=int(input(f"{i}-o'quvchini bahosi"))
+#print("bahosi",a)
+#4
+#a=["Novvot","Choy","Tuxum"]
+#for i in a:
+#    print(f"{i}-mahsuloti")
+#5
+#a=" "
+#while a!="0":
+#    a==0
+#    a=input("Raqamni kiriting")
+#print("Toʼg'ri raqam kiritdz",a)    
+#6
+#a=10
+#while a>0:
+#    print(f"{a}ta-yoqilg'i sarflandi")
+#    a-=1
+#7
+#a=" "
+#while a!="0724":
+#    a=="0724"
+#    a=input("Parolni kiritig")
+#print("Parolni toʻgʼri kiritdz",a)    
+#8
+#for i in range(1,11):
+#    if i%2==0:
+#        continue
+#    print(i)
+#print("Chirik olmaar olib tashlandi")        
+#9
+#a=" "
+#while a!="0":
+#    a=="0"
+#    a=input("Bank hisobizni kiriting")
+#print("Parolizni xato kiritdz")    
+#10
+#for i in range(1,6):
+#    a=input(f"{i}-oʻquvchiga xabar yuborish")
+#print("Hammaga xabar yuborildi",f"{a} taga yuborildi")    
+#11
+#for i in range(1,7):
+#    i=input("sonni kiriting")
+#    if i=="6":
+#        print("G'alaba")
+#        break
+#else:
+#     print("Urinishlariz tugadi")    
