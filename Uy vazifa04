@@ -227,3 +227,33 @@ Hayotiy misollar
 #         print("Nishonga tekkizdiz",i)
 #
 # print("Otishlariz tugadi")
+#20
+# urinish=0
+# a=" "
+# limit=int(input("urinishlarizni kiriting"))
+# while True and urinish<limit:
+#     urinish=urinish+1
+#     a=input("Sonni kiriting")
+#     if a<"8":
+#         print("Utkazib yuborildi")
+#         continue
+#     else:
+#         print("Nishonga tegdi")
+#         break
+# print("E'tiboriz uchun rahmat")
+#21
+urinish=0
+a=""
+limit=3
+b="0724"
+while  urinish<limit:
+    a=input("Kodizni kiriting")
+    urinish = urinish + 1
+    if a==b:
+        print("kirish tasdilandi")
+        break
+    else:
+        print("Notogri parol")
+else:
+    print("Kirish bloklandi")
+
