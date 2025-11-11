@@ -77,7 +77,40 @@
 #     if i==5:
 #         continue
 #     print(i)
-# 17
+#17
+# a=" "
+# while a!="exit":
+#     a=input("So'zni kiriting")
+#     if a=="exit":
+#         break
+# print("Tugri kiritdiz")
+#17_2
+# a = " "
+# urinish = 0
+# chegara = int(input("Necha urinish bo'lishini kiriting: "))
+#
+# while a != "exit" and urinish < chegara:
+#     a = input("So'zni kiriting: ")
+#     urinish += 1
+#     if a == "exit":
+#         break
+#
+# if a == "exit":
+#     print("To'g'ri kiritdingiz!")
+# else:
+#     print("Urinishlar tugadi! Siz chegaraga yetdingiz.")
+#18
+# urinishlar=0
+# yigindi=0
+# limit = int(input("urinishni kiriting"))
+# while True and urinishlar<limit:
+#     urinishlar=urinishlar+1
+#     a=int(input("sonni kiriting"))
+#     if a<0:
+#         continue
+# 
+#     yigindi=yigindi+a
+# print(yigindi)
 # 19
 # for i in range(1,20):
 #     if i==7:
