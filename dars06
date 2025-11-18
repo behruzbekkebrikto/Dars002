@@ -1,3 +1,135 @@
+# a={"name":"Behro'z","age":15}
+# # print(a["name"])\
+# # for key in a:
+# #     print(key)
+# print(a.get("anem", "Tugri"))
+#1-loyiha
+# Talabalar={"Behro'z":[90,95,98,92],"Shaxzoda":[98,93,97,96],
+#            "Humoyun":[97,92,91,95]}
+# for ism,baho in Talabalar.items():
+#     ortacha_bahosi=sum(baho)/len(baho)
+#     print(f"{ism}: {ortacha_bahosi:.2f}")
+#2-loyiha
+# mahsulotlar = {
+#     "olma":
+#                    {"narxi":"21000",
+#                     "rang": "qizil",
+#                     "tuzilishi": "shirin, "
+#                                  "yumshoq, suvli","kattalik": "o'rta"},
+#
+#     "banan": {
+# "narxi":"35000$",
+#         "rang": "sariq",
+#         "tuzilishi": "yumshoq, shirin",
+#         "kattalik": "uzun"
+#     },
+#     "uzum": {
+#         "narxi":"21000$",
+#         "rang": "qora",
+#         "tuzilishi": "suvli, mayda, shirin",
+#         "kattalik": "mayda"
+#     }
+# }
+# meva=input("Qaysi meva kk")
+#
+# print("mahsulot narxi>>>>>",mahsulotlar[meva]["narxi"],)
+# print("Mahsulot rangi>>>>",mahsulotlar[meva]["rang"])
+# print("Mahsulot tuzilishi>>>>",mahsulotlar[meva]["tuzilishi"])
+# print("Mahsulot kattaligi>>>",mahsulotlar[meva]["kattalik"])
+#1
+# talaba={"ism":"Behro'z","yosh":"18","kurs":"1-kurs",
+#         "Baholari":{"dasturlash":95,"Analitik geometriya":91,
+#         "Algebra":90}}
+# print(f"Talabaning ismi>{talaba["ism"]} \n Talabaning yoshi>{talaba["yosh"]} \n Talabaning kursi>{talaba["kurs"]} \n Talabaning baholari>{talaba["Baholari"]}" )
+#2
+# talaba={"ism":"Behro'z","yosh":"18","kurs":"1-kurs",
+#         "Baholari":{"dasturlash":95,"Analitik geometriya":91,
+#         "Algebra":90}}
+# ismi=talaba["ism"]
+# yoshi=talaba["yosh"]
+# print(f"{ismi} \n {yoshi}")
+#3
+# talaba={"ism":"Behro'z","yosh":"18","kurs":"1-kurs",
+#         "Baholari":{"dasturlash":95,"Analitik geometriya":91,
+#         "Algebra":90}}
+# talaba["telefon raqami"]="+998993365876"
+# print(talaba)
+#4
+# talaba={"ism":"Behro'z","yosh":"18","kurs":"1-kurs",
+#         "Baholari":{"dasturlash":95,"Analitik geometriya":91,
+#         "Algebra":90}}
+# talaba["yosh"]=25
+# print(talaba)
+#5
+# talaba={"ism":"Behro'z","yosh":"18","kurs":"1-kurs",
+#         "Baholari":{"dasturlash":95,"Analitik geometriya":91,
+#         "Algebra":90}}
+# del talaba["kurs"]
+# print(talaba)
+#6
+# talaba={"ism":"Behro'z","yosh":"18","kurs":"1-kurs",
+#         "Baholari":{"dasturlash":95,"Analitik geometriya":91,
+#         "Algebra":90}}
+# if talaba=={}:
+#     print("Bosh lug'at")
+# else:
+#     print("Bo'sh emas")
+#7
+# talaba={"ism":"Behro'z","yosh":"18","kurs":"1-kurs",
+#         "Baholari":{"dasturlash":95,"Analitik geometriya":91,
+#         "Algebra":90}}
+# d=talaba.keys()
+# print(d)
+#8
+# talaba={"ism":"Behro'z","yosh":"18","kurs":"1-kurs",
+#         "Baholari":{"dasturlash":95,"Analitik geometriya":91,
+#         "Algebra":90}}
+# d=talaba.values()
+# print(d)
+#9
+# talaba={"ism":"Behro'z","yosh":"18","kurs":"1-kurs",
+#         "Baholari":{"dasturlash":95,"Analitik geometriya":91,
+#         "Algebra":90}}
+# d=talaba.items()
+# print(d)
+#10
+# talabalar = {
+# "Ali": {"yosh": 20, "kurs": 2},
+# "Laylo": {"yosh": 19, "kurs": 1}
+# }
+# talabalar["Laylo"]["kurs"] += 1 or talabalar["Laylo"]["kurs"]==2
+# print(talabalar)
+#11
+# baholar = {"Ali": 88, "Vali": 92, "Laylo": 95, "Hasan": 90}
+# d=baholar.values()
+# print(max(d))
+#12
+# talabalar = {
+# "rAHMAT AKA": {"yosh": 20, "kurs": 2},
+# "bEKZOD": {"yosh": 19, "kurs": 1}
+# }
+# baholar = {"Ali": 88, "Vali": 92, "Laylo": 95, "Hasan": 90}
+# talabalar.update(baholar)
+# print(talabalar)
+#13
+matn = input("Matn kiriting: ")
+
+lugat = {}   
+
+for harf in matn:
+    if harf in lugat:
+        lugat[harf] += 1
+    else:
+        lugat[harf] = 1
+
+print(lugat)
+#14
+
+
+
+
+
+
 #1-loyiha
 # Talabalar={"Behro'z":[90,95,98,92],"Shaxzoda":[98,93,97,96],
 #            "Humoyun":[97,92,91,95]}
