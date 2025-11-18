@@ -1,0 +1,33 @@
+#1-loyiha
+# Talabalar={"Behro'z":[90,95,98,92],"Shaxzoda":[98,93,97,96],
+#            "Humoyun":[97,92,91,95]}
+# for ism,baho in Talabalar.items():
+#     ortacha_bahosi=sum(baho)/len(baho)
+#     print(f"{ism}: {ortacha_bahosi:.2f}")
+#2-loyiha
+# mahsulotlar = {
+#     "olma":
+#                    {"narxi":"21000",
+#                     "rang": "qizil",
+#                     "tuzilishi": "shirin, "
+#                                  "yumshoq, suvli","kattalik": "o'rta"},
+#     
+#     "banan": {
+# "narxi":"35000$",
+#         "rang": "sariq",
+#         "tuzilishi": "yumshoq, shirin",
+#         "kattalik": "uzun"
+#     },
+#     "uzum": {
+#         "narxi":"21000$",
+#         "rang": "qora",
+#         "tuzilishi": "suvli, mayda, shirin",
+#         "kattalik": "mayda"
+#     }
+# }
+# meva=input("Qaysi meva kk")
+# 
+# print("mahsulot narxi>>>>>",mahsulotlar[meva]["narxi"],)
+# print("Mahsulot rangi>>>>",mahsulotlar[meva]["rang"])
+# print("Mahsulot tuzilishi>>>>",mahsulotlar[meva]["tuzilishi"])
+# print("Mahsulot kattaligi>>>",mahsulotlar[meva]["kattalik"])
