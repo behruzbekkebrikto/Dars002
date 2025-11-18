@@ -1,1 +1,161 @@
-.
+#1
+# n=float(input("Sonni kiriting"))
+# if n%2==0:
+#     print("Juft son")
+# else:
+#     print("toq son")
+#2
+# ball=float(input("Talabaning balini kiriting"))
+# if ball>60:
+#     print("O'tdingiz")
+# else:
+#     print("O'tolmadz")
+#3
+# harorat=float(input("Haroratni kiriting"))
+# if harorat>0:
+#     print("Normal harorat")
+# else:
+#     print("Muzlash ehtimoli")
+#4
+# balans=float(input("Bank balansingizni kiriting"))
+# if balans<0:
+#     print("Qarzdorligiz mavjud ekan")
+# else:
+#     print("Balansingiz musbatdda ")
+#5
+# import math
+# r=int(input("Radiusni kiriting"))
+# s=math.pi*r**2
+# if r>0:
+#     print(s)
+# else:
+#     print("Xato radius")
+#6
+# yosh=float(input("Yoshizni kiriting"))
+# if yosh>=18:
+#     print("Kontrak tuzish mumkin")
+# else:
+#     print("Mumkin emas")
+#7
+#8
+# x=float(input("sonni kiriting"))
+# if 0<=x<=1:
+#     print(x**2)
+# else:
+#     print(2*x+1)
+#9
+# sekund=int(input("SEKUND:"))
+# if sekund>3600:
+#     print(sekund/3600)
+# else:
+#     print(sekund/60)
+#10
+# olma=int(input("Olmaning narxi:"))
+# non=int(input("Non narxi:"))
+# behi=int(input("Behi narxi:"))
+# baliq=int(input("Baliq narxi:"))
+# if olma+non+behi+baliq==0:
+#     print("savat bosh")
+# else:
+#     print(olma+non+behi+baliq)
+#11
+# Baho=int(input("Bahoni kiriting"))
+# if Baho>=90:
+#     print("A")
+# elif Baho>=80:
+#     print("B")
+# elif Baho>=70:
+#     print("C")
+# elif Baho>=60:
+#     print("D")
+# else:
+#     print("F")
+#12
+# a=int(input("Birinchi tomon"))
+# b=int(input("Ikkinchi tomon"))
+# c=int(input("Uchinchi tomon"))
+# if a==b!=c and c>0 and b>0 and a>0:
+#     print("Teng yonli")
+# elif a==b==c and b>0 and c>0 and a>0:
+#     print("Teng tomonli")
+# elif a!=b!=c and b>0 and c>0 and a>0:
+#     print("Turli tomonli")
+#13
+# son=int(input("Sonizni kiriting"))
+# if son>0:
+#     print("musbat")
+# elif son<0:
+#     print("manfiy")
+# elif son==0:
+#     print("nol")
+#14
+# kun_soni=int(input("hafta kuni"))
+# if kun_soni==1:
+#     print("1-Dushanba")
+# elif kun_soni==2:
+#     print("2-Seshanba")
+# elif kun_soni==3:
+#     print("3-Chorshanba")
+# elif kun_soni==4:
+#     print("4-Payshanba")
+# elif kun_soni==5:
+#     print("5-Juma")
+# elif kun_soni==6:
+#     print("6-Shanba")
+# elif kun_soni==7:
+#     print("7-yakshanba")
+# elif kun_soni>7:
+#     print("Bunday hafta yuq")
+#15
+# oy_raqami=int(input("Oy raqamini kiriting"))
+# if oy_raqami==12 or oy_raqami==1 or oy_raqami==2:
+#     print("Qish")
+# elif oy_raqami==3 or oy_raqami==4 or oy_raqami==5:
+#     print("Bahor")
+# elif oy_raqami==6 or oy_raqami==7 or oy_raqami==8:
+#     print("Yoz")
+# elif oy_raqami==9 or oy_raqami==10 or oy_raqami==11:
+#     print("Kuz")
+# elif oy_raqami>12:
+#     print("Bunday fasl yuq")
+#16
+# import math
+# x=int(input("sonni kiriting"))
+# if x<0:
+#     print(abs(x))
+# elif 0<=x<=5:
+#     print(x**2)
+# elif x>5:
+#     print(2*x+3)
+#17
+# tezlik=int(input("Tezligizni kiriting"))
+# if 60<=tezlik<=80:
+#     print("Ogohlantirish")
+# elif 80<=tezlik<=100:
+#     print("Kichik jarima")
+# elif tezlik>=100:
+#     print("Jarima")
+#18
+# oylik=int(input("Oylik daramodiz"))
+# if oylik<3000000:
+#     print("past daromad")
+# elif 3000000<oylik<10000000:
+#     print("O'rta")
+# elif oylik>10000000:
+#     print("Yuqori")
+#19
+#20
+# b=int(input("Telefon batareykaz"))
+# if 80<=b:
+#     print("To'liq")
+# elif 30<b<80:
+#     print("Normal")
+# elif 30>b:
+#     print("Kam")
+#21
+harf=float(input("Harfizni kiriting"))
+Unli=["a","e","i","o","u","o'"]
+if harf in Unli:
+    print("Unli")
+else:
+    print("undosh")
